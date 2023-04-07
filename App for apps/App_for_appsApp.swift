@@ -14,13 +14,4 @@ struct App_for_appsApp: App {
       ContentView()
     }
   }
-  
-//  @Environment(\.openURL) var openURL
-//  
-//  func onOpenURL(_ url: URL) {
-//    // Handle the URL passed from the Share Sheet
-//    // Display validation view
-//    // Display URL in your app
-//    print("L'URL ➡️ \(url)")
-//  }
 }

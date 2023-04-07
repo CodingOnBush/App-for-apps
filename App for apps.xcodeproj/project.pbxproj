@@ -14,19 +14,18 @@
 		46B434BF29DF700B004C2086 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B434BE29DF700B004C2086 /* HomeView.swift */; };
 		46B434C129DF7025004C2086 /* MyLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B434C029DF7025004C2086 /* MyLibraryView.swift */; };
 		46B434C329DF702F004C2086 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B434C229DF702F004C2086 /* SettingsView.swift */; };
-		46B434C629DF7A32004C2086 /* ValidationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B434C529DF7A32004C2086 /* ValidationView.swift */; };
-		46B4350F29DF9A98004C2086 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B4350E29DF9A98004C2086 /* ShareViewController.swift */; };
-		46B4351229DF9A98004C2086 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46B4351029DF9A98004C2086 /* MainInterface.storyboard */; };
-		46B4351629DF9A98004C2086 /* shareme.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 46B4350C29DF9A98004C2086 /* shareme.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		46B4352329E079A9004C2086 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B4352229E079A9004C2086 /* ShareViewController.swift */; };
+		46B4352629E079A9004C2086 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46B4352429E079A9004C2086 /* MainInterface.storyboard */; };
+		46B4352A29E079A9004C2086 /* My share extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 46B4352029E079A9004C2086 /* My share extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		46B4351429DF9A98004C2086 /* PBXContainerItemProxy */ = {
+		46B4352829E079A9004C2086 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 465DAA7129DF6DD20098E617 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 46B4350B29DF9A98004C2086;
-			remoteInfo = shareme;
+			remoteGlobalIDString = 46B4351F29E079A9004C2086;
+			remoteInfo = "My share extension";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -37,7 +36,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				46B4351629DF9A98004C2086 /* shareme.appex in Embed Foundation Extensions */,
+				46B4352A29E079A9004C2086 /* My share extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -54,12 +53,11 @@
 		46B434C029DF7025004C2086 /* MyLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLibraryView.swift; sourceTree = "<group>"; };
 		46B434C229DF702F004C2086 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		46B434C429DF73A0004C2086 /* App-for-apps-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "App-for-apps-Info.plist"; sourceTree = SOURCE_ROOT; };
-		46B434C529DF7A32004C2086 /* ValidationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationView.swift; sourceTree = "<group>"; };
 		46B434CD29DF8B42004C2086 /* UniformTypeIdentifiers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UniformTypeIdentifiers.framework; path = System/Library/Frameworks/UniformTypeIdentifiers.framework; sourceTree = SDKROOT; };
-		46B4350C29DF9A98004C2086 /* shareme.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = shareme.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		46B4350E29DF9A98004C2086 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
-		46B4351129DF9A98004C2086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
-		46B4351329DF9A98004C2086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46B4352029E079A9004C2086 /* My share extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "My share extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46B4352229E079A9004C2086 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		46B4352529E079A9004C2086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		46B4352729E079A9004C2086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +68,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46B4350929DF9A98004C2086 /* Frameworks */ = {
+		46B4351D29E079A9004C2086 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -84,7 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				465DAA7B29DF6DD20098E617 /* App for apps */,
-				46B4350D29DF9A98004C2086 /* shareme */,
+				46B4352129E079A9004C2086 /* My share extension */,
 				46B434CC29DF8B42004C2086 /* Frameworks */,
 				465DAA7A29DF6DD20098E617 /* Products */,
 			);
@@ -94,7 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				465DAA7929DF6DD20098E617 /* App for apps.app */,
-				46B4350C29DF9A98004C2086 /* shareme.appex */,
+				46B4352029E079A9004C2086 /* My share extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,7 +124,6 @@
 				46B434BE29DF700B004C2086 /* HomeView.swift */,
 				46B434C029DF7025004C2086 /* MyLibraryView.swift */,
 				46B434C229DF702F004C2086 /* SettingsView.swift */,
-				46B434C529DF7A32004C2086 /* ValidationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -139,14 +136,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		46B4350D29DF9A98004C2086 /* shareme */ = {
+		46B4352129E079A9004C2086 /* My share extension */ = {
 			isa = PBXGroup;
 			children = (
-				46B4350E29DF9A98004C2086 /* ShareViewController.swift */,
-				46B4351029DF9A98004C2086 /* MainInterface.storyboard */,
-				46B4351329DF9A98004C2086 /* Info.plist */,
+				46B4352229E079A9004C2086 /* ShareViewController.swift */,
+				46B4352429E079A9004C2086 /* MainInterface.storyboard */,
+				46B4352729E079A9004C2086 /* Info.plist */,
 			);
-			path = shareme;
+			path = "My share extension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,28 +161,28 @@
 			buildRules = (
 			);
 			dependencies = (
-				46B4351529DF9A98004C2086 /* PBXTargetDependency */,
+				46B4352929E079A9004C2086 /* PBXTargetDependency */,
 			);
 			name = "App for apps";
 			productName = "App for apps";
 			productReference = 465DAA7929DF6DD20098E617 /* App for apps.app */;
 			productType = "com.apple.product-type.application";
 		};
-		46B4350B29DF9A98004C2086 /* shareme */ = {
+		46B4351F29E079A9004C2086 /* My share extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46B4351729DF9A98004C2086 /* Build configuration list for PBXNativeTarget "shareme" */;
+			buildConfigurationList = 46B4352B29E079A9004C2086 /* Build configuration list for PBXNativeTarget "My share extension" */;
 			buildPhases = (
-				46B4350829DF9A98004C2086 /* Sources */,
-				46B4350929DF9A98004C2086 /* Frameworks */,
-				46B4350A29DF9A98004C2086 /* Resources */,
+				46B4351C29E079A9004C2086 /* Sources */,
+				46B4351D29E079A9004C2086 /* Frameworks */,
+				46B4351E29E079A9004C2086 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = shareme;
-			productName = shareme;
-			productReference = 46B4350C29DF9A98004C2086 /* shareme.appex */;
+			name = "My share extension";
+			productName = "My share extension";
+			productReference = 46B4352029E079A9004C2086 /* My share extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -201,7 +198,7 @@
 					465DAA7829DF6DD20098E617 = {
 						CreatedOnToolsVersion = 14.3;
 					};
-					46B4350B29DF9A98004C2086 = {
+					46B4351F29E079A9004C2086 = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
@@ -220,7 +217,7 @@
 			projectRoot = "";
 			targets = (
 				465DAA7829DF6DD20098E617 /* App for apps */,
-				46B4350B29DF9A98004C2086 /* shareme */,
+				46B4351F29E079A9004C2086 /* My share extension */,
 			);
 		};
 /* End PBXProject section */
@@ -235,11 +232,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46B4350A29DF9A98004C2086 /* Resources */ = {
+		46B4351E29E079A9004C2086 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46B4351229DF9A98004C2086 /* MainInterface.storyboard in Resources */,
+				46B4352629E079A9004C2086 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,35 +250,34 @@
 				46B434C329DF702F004C2086 /* SettingsView.swift in Sources */,
 				46B434C129DF7025004C2086 /* MyLibraryView.swift in Sources */,
 				46B434BF29DF700B004C2086 /* HomeView.swift in Sources */,
-				46B434C629DF7A32004C2086 /* ValidationView.swift in Sources */,
 				465DAA7F29DF6DD20098E617 /* ContentView.swift in Sources */,
 				465DAA7D29DF6DD20098E617 /* App_for_appsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46B4350829DF9A98004C2086 /* Sources */ = {
+		46B4351C29E079A9004C2086 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46B4350F29DF9A98004C2086 /* ShareViewController.swift in Sources */,
+				46B4352329E079A9004C2086 /* ShareViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		46B4351529DF9A98004C2086 /* PBXTargetDependency */ = {
+		46B4352929E079A9004C2086 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 46B4350B29DF9A98004C2086 /* shareme */;
-			targetProxy = 46B4351429DF9A98004C2086 /* PBXContainerItemProxy */;
+			target = 46B4351F29E079A9004C2086 /* My share extension */;
+			targetProxy = 46B4352829E079A9004C2086 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		46B4351029DF9A98004C2086 /* MainInterface.storyboard */ = {
+		46B4352429E079A9004C2086 /* MainInterface.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				46B4351129DF9A98004C2086 /* Base */,
+				46B4352529E079A9004C2086 /* Base */,
 			);
 			name = MainInterface.storyboard;
 			sourceTree = "<group>";
@@ -477,15 +473,15 @@
 			};
 			name = Release;
 		};
-		46B4351829DF9A98004C2086 /* Debug */ = {
+		46B4352C29E079A9004C2086 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2PT2WK79D9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = shareme/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = shareme;
+				INFOPLIST_FILE = "My share extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "My share extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -494,7 +490,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vegapunk.App-for-apps.shareme";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vegapunk.App-for-apps.My-share-extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -503,15 +499,15 @@
 			};
 			name = Debug;
 		};
-		46B4351929DF9A98004C2086 /* Release */ = {
+		46B4352D29E079A9004C2086 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2PT2WK79D9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = shareme/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = shareme;
+				INFOPLIST_FILE = "My share extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "My share extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -520,7 +516,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vegapunk.App-for-apps.shareme";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vegapunk.App-for-apps.My-share-extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -550,11 +546,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46B4351729DF9A98004C2086 /* Build configuration list for PBXNativeTarget "shareme" */ = {
+		46B4352B29E079A9004C2086 /* Build configuration list for PBXNativeTarget "My share extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46B4351829DF9A98004C2086 /* Debug */,
-				46B4351929DF9A98004C2086 /* Release */,
+				46B4352C29E079A9004C2086 /* Debug */,
+				46B4352D29E079A9004C2086 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -9,7 +9,7 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>shareme.xcscheme_^#shared#^_</key>
+		<key>My share extension.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>2</integer>
@@ -28,6 +28,16 @@
 			<true/>
 		</dict>
 		<key>46B434E229DF8C72004C2086</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>46B4350B29DF9A98004C2086</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>46B4351F29E079A9004C2086</key>
 		<dict>
 			<key>primary</key>
 			<true/>
